@@ -1,0 +1,6 @@
+## GitIgnore for HyPaD
+### MATLAB temporary files
+*.aux
+
+### Gurobi problem file 
+*.lp
