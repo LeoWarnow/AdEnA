@@ -18,7 +18,7 @@ is_quadratic = true;
 
 % Objective function
 f = @(x) [x(1);x(2)+sum(10.*(x(3:n+m)-0.4).^2)];
-Df = @(x) [1,zeros(1,n+m-1);0,1,20.*x(3:n+m)'];
+Df = @(x) [1,zeros(1,n+m-1);0,1,20.*x(3:n+m)'-8];
 
 % Linear constraints (Aineq*x <= bineq, Aeq*x = beq)
 Aineq = [];

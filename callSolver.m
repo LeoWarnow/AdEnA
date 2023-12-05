@@ -1,8 +1,6 @@
 function [L,U,N,it,exitflag,time] = callSolver(problem_name,problem_param,L,U,SOLVER,EPSILON,OFFSET,plot_result)
 
-%% Load additional paths and problem
-addpath(genpath('problems'));
-addpath(genpath('solver'));
+%% Load problem
 problem = str2func(problem_name);
 problem_quadr = [];
 
