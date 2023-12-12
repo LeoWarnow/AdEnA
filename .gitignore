@@ -1,6 +1,33 @@
-## GitIgnore for HyPaD
+## GitIgnore for AdEnA
+.DS_Store
+
 ### MATLAB temporary files
 *.aux
 
 ### Gurobi problem file 
 *.lp
+
+### Python ignore
+# Byte-compiled / optimized / DLL files
+python/__pycache__/
+python/problems/__pycache__/
+python/solver/__pycache__/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Spyder project settings
+.spyderproject
+.spyproject

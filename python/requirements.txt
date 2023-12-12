@@ -1,0 +1,6 @@
+gurobi
+ipopt
+notebook
+numpy
+matplotlib
+pyomo
